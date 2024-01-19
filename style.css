@@ -1,0 +1,80 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+    }
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2015/09/29/15/12/stars-964022_1280.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:100%;
+}
+
+h1{
+    font-family: 'Harry potter',sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: auto;
+    margin-bottom: 30px;
+}
+
+button,img{
+    border-radius: 100%;
+   
+}
+
+    
+
+
+button{
+  border:none;
+   background-size: cover;
+   background-color: inherit;
+   cursor: pointer;
+  
+}
+button:hover{
+    opacity: 60%;
+}
+
+.theme-1{
+    display:flex; 
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.theme-2{
+    display:flex;
+    flex-wrap:nowrap;
+    flex-direction: row ;
+    justify-content: center;
+}
+.theme-1 > button{
+    margin:15px;
+    margin-top:5px;
+}
+.theme-2 > button{
+
+    margin:15px;
+}
+
+.h2,.p1,.p2,.p3,.text,.anWinner{
+   font-family: 'Harry Potter',sans-serif;
+   color: whitesmoke;
+   font-size: 22px;
+   
+}
+
+
+.replay>img{
+    height: 50px;
+    width: 45px;
+    text-align: right;
+}
+
+
+
+
